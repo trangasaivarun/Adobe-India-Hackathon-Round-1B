@@ -1,0 +1,27 @@
+{
+  "challenge_info": {
+    "challenge_id": "round_1b_001",
+    "test_case_name": "upi_fraud_detection",
+    "description": "UPI fraud detection with AI and ML"
+  },
+  "documents": [
+    {
+      "filename": "Comparative_Analysis_of_UPI_Fraud_Detection_Using_Ensemble_Learning.pdf",
+      "title": "Comparative Analysis of UPI Fraud Detection Using Ensemble Learning"
+    },
+    {
+      "filename": "Fraud_Fighters_-_How_AI_and_ML_are_Revolutionizing_UPI_Security.pdf",
+      "title": "Fraud Fighters - How AI and ML are Revolutionizing UPI Security"
+    },
+    {
+      "filename": "Secure_UPI_Machine_Learning-Driven_Fraud_Detection_System_for_UPI_Transactions.pdf",
+      "title": "Secure UPI - ML Driven Fraud Detection System"
+    }
+  ],
+  "persona": {
+    "role": "Fraud Analyst at a FinTech company"
+  },
+  "job_to_be_done": {
+    "task": "Identify the most effective machine learning algorithms, preprocessing methods, and evaluation techniques to build a real-time UPI fraud detection system."
+  }
+}
