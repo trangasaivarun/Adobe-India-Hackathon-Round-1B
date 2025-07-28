@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Comparative_Analysis_of_UPI_Fraud_Detection_Using_Ensemble_Learning.pdf",
+      "Fraud_Fighters_-_How_AI_and_ML_are_Revolutionizing_UPI_Security.pdf",
+      "Secure_UPI_Machine_Learning-Driven_Fraud_Detection_System_for_UPI_Transactions.pdf"
+    ],
+    "persona": "Fraud Analyst at a FinTech company",
+    "job_to_be_done": "Identify the most effective machine learning algorithms, preprocessing methods, and evaluation techniques to build a real-time UPI fraud detection system.",
+    "processing_timestamp": "2025-07-27T10:55:56"
+  },
+  "extracted_sections": [
+    {
+      "document": "Fraud_Fighters_-_How_AI_and_ML_are_Revolutionizing_UPI_Security.pdf",
+      "section_title": "Page 3",
+      "importance_rank": 1,
+      "page_number": 3
+    },
+    {
+      "document": "Fraud_Fighters_-_How_AI_and_ML_are_Revolutionizing_UPI_Security.pdf",
+      "section_title": "Page 2",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Comparative_Analysis_of_UPI_Fraud_Detection_Using_Ensemble_Learning.pdf",
+      "section_title": "Page 6",
+      "importance_rank": 3,
+      "page_number": 6
+    },
+    {
+      "document": "Secure_UPI_Machine_Learning-Driven_Fraud_Detection_System_for_UPI_Transactions.pdf",
+      "section_title": "Page 5",
+      "importance_rank": 4,
+      "page_number": 5
+    },
+    {
+      "document": "Comparative_Analysis_of_UPI_Fraud_Detection_Using_Ensemble_Learning.pdf",
+      "section_title": "Page 2",
+      "importance_rank": 5,
+      "page_number": 2
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Fraud_Fighters_-_How_AI_and_ML_are_Revolutionizing_UPI_Security.pdf",
+      "refined_text": "3 \nmisleading activity. This problem has resulted in \nsubstantial losses for both businesses and individuals. \nVarious other models turned out to be  used for detection \nof card fraud. Decision Tree classifier is more suitable for \nfraud detection, while LGBM Model outperforms \nAdaBoost and XGBM in boosting classifiers. Bagging \nensemble techniques have the best results, making them \nsuitable for credit card fraud detection [21]. \n \nIII.EXISTING SYSTEM \n \nThe existing system gathers information from a number of \nsources, such as past fraud incidents, user profiles, and \nUPI transaction records. Its reliance on historical data \nraises the possibility of a lag in fraud detection because it \nmight not be indicative of changing fraud practices. It can \nbe challenging to modify current systems to accommodate \ngrowing transaction volumes, doing so may have an \ninfluence on system performance and necessitate ongoing \nmodifications. According to the information at hand, \nmachine learning (ML) approaches have been used by a \nnumber of banks and financial institutions that are using \nUPI (Unified Payments Interface) fraud detection systems \nin order to improve security and stop fraudulent activity. \nOrganizations are improving their UPI fraud detection \nsystems as technology and security procedures change. \n \nProblem Identified \nThe analysis and justification of the problem that was \nfound for the project \"Fraud Fighters: How AI and ML \nare Revolutionizing UPI Security\" are summarized as \nfollows: \n \nIdentification of the Problem: Due to the prevalence of its \nuse in India, Payments Interface has emerged as a \nprominent target for security concerns. Transaction fraud, \nunauthorized access, identity theft, and data breaches are \njust a few of the security issues that UPI must deal with. \nThese flaws have the potential to cause monetary losses \nand erode user confidence in the UPI system that must be \nresolved. \n \nSecurity Repercussions: In the UPI ecosystem, security \nlapses c",
+      "page_number": 3
+    },
+    {
+      "document": "Fraud_Fighters_-_How_AI_and_ML_are_Revolutionizing_UPI_Security.pdf",
+      "refined_text": "2 \nmachine learning models, auto-encoder models, and other \ndeep learning models are compared to the proposed \napproach, which incorporates a real-time credit card fraud \ndataset. In future work, fraud location, time calculation, \nand other aspects might be combined into a single \nalgorithm [6-8]. \n \nPrudent Fraud Detection in Internet Banking: This study \nconcluded that the data mining approach extracts all \nrelevant information from a vast quantity of knowledge \nand alters all high-level decision making in the banking \nand retail sectors. It involves mixing varied data from \ndifferent databases and storing it in an acceptable format \nfor analysis. This data is then used to target and exploit \nnew clients, detect fraud in real-time, manage risk, and \nanalyze customer data. Data mining is crucial for \npreventing fraud activities in banks and enhancing \ndecision-making power. It extracts essential patterns from \nhuge databases, hence enhancing database quality. This \nresearch paper discusses numerous concerns linked to \nfinancial information security and suggests strategies to \novercome these issues using the supplied methodologies  \n[9-10]. \n \nIn this article, electronic payment systems are those that \nallow transactions to be completed without the need for \neither checks or cash. Machine Learning algorithms are \nused in these systems, with an accuracy rate of about 90%. \nArtificial Intelligence (AI) tools and algorithms are being \ndeveloped to create disruptive technology for consumers. \nMajor AI payment industry firms like PayPal, Amazon's \nKindle, MasterCard, and Google are focusing on customer \nsatisfaction in payment processing. This article provides \nan integrated view of e-payments, discussing their types, \nreturns, obstacles, risks, and future prospects, aiming to \nprovide a comprehensive understanding for those \ninterested in electronic payments [11]. \n \nThe paper discusses fraud detection and prevention \nsolutions using Machine Learning technology. It anal",
+      "page_number": 2
+    },
+    {
+      "document": "Comparative_Analysis_of_UPI_Fraud_Detection_Using_Ensemble_Learning.pdf",
+      "refined_text": "2025 International Conference on Computational Robotics, Testing and Engineering Evaluation (ICCRTEE) \n \nFig. 6. Legitimate Transaction \nFig. 6 shows a UPI fraud detection result indicating \ntransaction details that include amount, category, and location. \nThe system predicts the transaction to be genuine as indicated \nby a green checkmark. \n \n \nFig. 7. Fraud Transaction \nFig. 7 displays a UPI fraud detection result for a transaction \nrelated to travel bookings in Maharashtra. The system flags it \nas fraudulent, highlighted with a red warning message. \nV. CONCLUSION \nThis research highlights the significance of using ML tools \nespecially EL techniques like XGBoost and CatBoost in \nidentifying fraudulent UPI transactions. The research employed \nthorough data preprocessing, feature engineering, and strict \nmodel evaluation to achieve an outstanding accuracy rate of \nmore than 99% with minimal misclassification errors. The \noptimized XGBoost model could be considered a scalable and \nreal-time solution ready for implementation by financial \ninstitutions to enhance fraud prevention mechanisms. Moreover, \nthe model comes with a user-friendly interface that increases \nthe practical implementation of the system by bridging the gap \nbetween an advanced technical model and the end users such as \nfraud analysts, and financial professionals. This interface \nensures the integration of the system into the existing workflow \nand enables real-time fraud detection and improved operational \nefficiency. On the other side, the results make digital payment \nplatforms more trustworthy and have proved that there is a \nsynergy between the credibility of advanced analytics and user-\ncentric designs for safeguarding digital transactions. Future \nwork could extend to using Blockchain in UPI fraud detection \nfor a tamper-proof ledger and incorporate a smart contract \nsystem, possibly even DL and behavioral biometrics, to \nimprove accuracy and fight even highly sophisticated fraud \ntactics. \nRE",
+      "page_number": 6
+    },
+    {
+      "document": "Secure_UPI_Machine_Learning-Driven_Fraud_Detection_System_for_UPI_Transactions.pdf",
+      "refined_text": "Support Vector Machine\n81.5\nNaive Bayes\n80.2\nLogistic Regression\n78.9\nV. CONCLUSION\nThis UPI fraud detection project has applied innovative \nmethodologies to enhance the robustness and efficiency of our \nfraud detection model. By addressing the imbalanced nature \nof the dataset with the Synthetic Minority Over-sampling \nTechnique (SMOTE), we have successfully balanced the \nrepresentation of fraudulent transactions, boosting the model's \nability to recognize subtle patterns indicative of fraudulent \noperations.\nThe application of Principal Component Analysis (PCA) \nfor feature extraction has contributed to the reduction of \ndimensionality, capturing the most salient aspects of the data \nand mitigating issues related to multicollinearity. This \nsimplified the computing procedure and made it easier to \nunderstand the underlying fraud tendencies in the \nrepresentation.\nOur choice of XGBoost as the training model has been \neffective, exploiting its capabilities in managing skewed data, \nhigh predicted accuracy, and robustness. XGBoost's capacity \nto capture intricate relationships within the data has \nconsiderably boosted the model's overall effectiveness in \nrecognizing probable cases of UPI fraud.\nFor future scope we can reduce the number of transactions \ndetails [23] [24] that is needed to detect the transaction \nauthenticity whereas as well as we can track trends in user \ninteractions with the UPI platform by integrating analytics on \nuser behavior. Behavior anomalies may be used as early \nwarning signs of possible fraud.\nREFERENCES\n[1]\nAdekunle, I. M., & Ozoh, P. (2023). Fraud detection model for \nillegitimate transactions. Kabale University Interdisciplinary Research \nJournal, 2(2), 21-37 https://doi.org/10.1016/j.future.2015.01.001\n[2]\nBoulieris, P., Pavlopoulos, J., Xenos, A., & Vassalos, V. (2023). Fraud \ndetection with natural language processing. Machine Learning, 1 22. \nhttps://doi.org/10.24321/2394.6539.202012\n[3]\nMytnyk, B., Tkachyk, O., Shakhovska, N., Fed",
+      "page_number": 5
+    },
+    {
+      "document": "Comparative_Analysis_of_UPI_Fraud_Detection_Using_Ensemble_Learning.pdf",
+      "refined_text": "2025 International Conference on Computational Robotics, Testing and Engineering Evaluation (ICCRTEE) \n \nII. LITERATURE SURVEY \nThis section briefly outlines recent research in the field of \nUPI fraud detection suggesting that a large portion of the \nprevious work was mainly based on sophisticated Machine and \nDeep Learning (DL) models to catch intricate fraud patterns. \nS. K. Lokesh Naik et al. [7] have studied the role of AI and \nML in improving the security of UPI transactions by proposing \na real-time fraud detection system based on Convolutional \nNeural Networks (CNNs). The model has been trained on a \nfictitious dataset that elaborates a model of multiple fraud \nscenarios and is also adaptable to modifications in the fraud \nscheme. Experimental results confirm the competitive \nadvantage of the CNN model developed in terms of predictive \npower over traditional methods with a minimum number of \nFalse Positives. \nRupa Rani et al. [9] applied ML to develop a UPI fraud \ndetection mechanism with XGBoost for high accuracy. SMOTE \nwas used to solve the problem of class imbalance and to ensure \nproper representation of fraud cases. To enhance model \nperformance, Principal Component Analysis (PCA) was used \nfor feature selection and dimensionality reduction. The system \nmonitors UPI transactions in real time using the predictive \npower of XGBoost and achieves 98.2% accuracy. \nJ Kavitha et al. [10] invoke a UPI fraud detection system that \nhelps to detect and verify the normal behavior of transactions \nand anomalies by applying the Hidden Markov Model (HMM). \nThe system incorporates K-means clustering, Auto Encoders, \nLocal Outlier Factors (LOF), and Artificial Neural Networks \n(ANNs) to boost fraud detection. CNN is introduced for real-\ntime detection of fraud addressing computational inefficiency \nand scalability. \nYash Patil et al. [11] introduced a UPI fraud detection system \nusing ML techniques, particularly the Support Vector Machine \n(SVM) for analyzing user trans",
+      "page_number": 2
+    }
+  ]
+}
